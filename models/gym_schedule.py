@@ -10,7 +10,6 @@ class Member(models.Model):
     workout_ids = fields.One2many(comodel_name='workout.plan', inverse_name='exercise_plan_id')
     total_price = fields.Integer('TotalPrice', compute='_total', readonly=True)
     born = fields.Date('Date of birth')
-    # age = fields.Integer('Age',compute='_calculate_age',store=1)
     age1 = fields.Char('Age')
 
     @api.depends('workout_ids')
