@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.workout.plan,access_workout_plan,model_workout_plan,base.group_user,1,1,1,1
+access.new.form,access_new_form,model_new_form,base.group_user,1,1,1,1
+access.customer.wizard,customer_wizard,model_customer_wizard,base.group_user,1,1,1,1
+access.order.wizard,order_wizard,model_order_wizard,base.group_user,1,1,1,1
+access.order.wizard2,order_wizard2,model_order_wizard2,base.group_user,1,1,1,1
+
