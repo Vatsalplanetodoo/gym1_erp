@@ -1,4 +1,3 @@
-# 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
 import re
 from odoo import api, fields, models
 from datetime import date, datetime
@@ -20,11 +19,7 @@ class Member(models.Model):
             total += record.price
         self.total_price = total
 
-    # @api.onchange('born')
-    # def _calculate_age(self):
-    #     today = date.today()
-    #     self.age1= today.year - self.born.year - ((today.month, today.day) < (self.born.month, self.born.day))
-    #     return 0
+
 
     @api.onchange('email')
     def validate_mail(self):
