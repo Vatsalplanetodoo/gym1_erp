@@ -58,7 +58,6 @@ class WorkoutPlan(models.Model):
 class newform(models.Model):
     _name = 'new.form'
     _rec_name = 'exercise_name'
-    # exercise1_id = fields.Many2one('workout.plan')
     exercise_name = fields.Char('Exercise Name')
     sets = fields.Integer('No of Sets')
     reps = fields.Integer('No of Reps')
